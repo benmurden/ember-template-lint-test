@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('passing');
+  this.route('failing');
 });
 
 export default Router;
